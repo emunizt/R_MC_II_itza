@@ -31,13 +31,17 @@ head(computoeinegi)
 
 gr_participacion <- ggplot( computoeinegi, 
                    aes(x=distrito , y=participacion) )+ 
-              geom_point() + 
+              geom_point(color=computoeinegi$id_entidad) + 
               labs(title="Participación electoral", 
                   subtitle="Proceso Electoral Federal 2021.", 
                   x="Distrito electoral federal",
                   y="Porcentaje de participación", 
                   caption="Elaboración propia con datos de INE(2021).") +
               theme_economist()+
-              theme(axis.text.x=element_text(angle=50,size=12))
+              theme(axis.text.x=element_text(angle=50,size=12) )
 
 plot(gr_participacion)
+
+1+1
++1+1
+
