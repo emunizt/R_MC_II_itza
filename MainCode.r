@@ -35,7 +35,15 @@ head(computoeinegi)
 
  # FECHA DE ENTREGA: 13 Y 14 DE DICIEMBRE
  
- # Limpiar la base
+ #Distinguir entre tipos de variables: 
+ # Cuales te sirven para regresión: explicada y explicativas
+ # variables taxonómicas: son las que caracterizan. 
+ # pensar como cuanti y cuali
+ # qué variables explican mejor el fenómeno
+ # qué variables caracterizan mejor a la población
+ # 
+  
+# Limpiar la base
 # Estadistica descriptiva LALO
 # ANOVA LUPITA
 # Regresión lineal con variables explicativas CARILLO
@@ -64,8 +72,6 @@ gr_participacion <- ggplot( computoeinegi,
 
 plot(gr_participacion)
 
-1+1
-1+1
 
 # Otro cambio de prueba
 
