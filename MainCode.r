@@ -25,7 +25,8 @@ library(purrr)
 computoeinegi <- read.csv("2021 computoeinegi.csv")
 str(computoeinegi)
 head(computoeinegi)
-# View(computoeinegi)
+
+ View(computoeinegi)
 
 ## Indice de cosas por hacer:
 
