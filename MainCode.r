@@ -27,6 +27,9 @@ str(computoeinegi)
 head(computoeinegi)
 # View(computoeinegi)
 
+## Indice de cosas por hacer:
+
+
 ##### Estadística descriptiva ----
 
 gr_participacion <- ggplot( computoeinegi, 
@@ -43,5 +46,5 @@ gr_participacion <- ggplot( computoeinegi,
 plot(gr_participacion)
 
 1+1
-+1+1
+1+1
 
