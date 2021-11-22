@@ -27,9 +27,27 @@ str(computoeinegi)
 head(computoeinegi)
 
  View(computoeinegi)
+ 
+ 
+###################################
+####### Indice de cosas por hacer:
+###################################
 
-## Indice de cosas por hacer:
-
+ # FECHA DE ENTREGA: 13 Y 14 DE DICIEMBRE
+ 
+ # Limpiar la base
+# Estadistica descriptiva LALO
+# ANOVA LUPITA
+# Regresión lineal con variables explicativas CARILLO
+ # Hito 1: DEBE ESTAR LISTO EL  25-NOV EN LA NOCHE
+ # Ahí cordinarnos por mensajería sobre lo siguiente.
+ 
+# Usar variables explicativas para analisis de componentes principales
+ # crear subconjunto de variables
+ # utilizar estas variables explicativas para:
+ # Conglomerados
+ # Nuevo grupos
+ # con nuevos grupos analisis jerárquico. 
 
 ##### Estadística descriptiva ----
 
@@ -48,4 +66,16 @@ plot(gr_participacion)
 
 1+1
 1+1
+
+# Otro cambio de prueba
+
+### Analisis de conglomerados ----
+
+## para el análisis de conglomerados adaptamos la BD
+row.names(computoeinegi)<-computoeinegi$distrito
+computoeinegi<- computoeinegi[, -c(1,2,3,4,5,7)]
+computoeinegi
+View(computoeinegi)
+str(computoeinegi)
+computoeinegi$n_complejidad<-as.factor(computoeinegi$n_complejidad)
 
